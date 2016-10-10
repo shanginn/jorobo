@@ -20,6 +20,16 @@ trait deployTasks
 	}
 
 	/**
+	 * Build component
+	 *
+	 * @return  Component
+	 */
+	protected function deployComponent()
+	{
+		return new Component();
+	}
+
+	/**
 	 * Build extension
 	 *
 	 * @return  Package
